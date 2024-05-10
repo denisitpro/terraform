@@ -1,0 +1,16 @@
+.ssh/
+.bash_history
+*.retry
+*.idea
+.DS_Store
+*.log
+.vscode
+*.txt
+
+# terraform exclude
+secret.tfvars
+*.tfstate
+*.tfstate.*
+.terraform
+*.tfstate.backup
+.terraform.lock.hcl
